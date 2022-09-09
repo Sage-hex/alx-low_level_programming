@@ -5,18 +5,13 @@
  * Return: Always 0 (Success)
  */
 
+#include <stdio.h>
 int main(void)
 {
-	int intType;
-	float floatType;
-	double doubleType;
-	char charType;
-	long longType;
-
-	printf("size of int: %d bytes\n", sizeof(inType));
-	printf("size of float: %d bytes\n", sizeof(float));
-	printf("size of double: %d bytes\n", sizeof(char));
-	printf("size of long: %db bytes\n", sizeof(long));
+	printf("Size of a char: %d byte(s)\n", sizeof(char));
+	printf("Size of an int: %d byte(s)\n", sizeof(int));
+	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %d byte(s)\n", sizeof(float));
 	return (0);
 }
-
